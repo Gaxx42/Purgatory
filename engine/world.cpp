@@ -26,7 +26,7 @@ void    world_generate()
     {
         for(j = 0; j < LEVEL_HEIGHT; j+=3)
         {
-            known_world[i][j] = rand()%2;
+            known_world[i][j] = rand()%2;   //This is shit. Think of something
         }
     }
 
